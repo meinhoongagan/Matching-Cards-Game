@@ -1,0 +1,24 @@
+
+body{
+    background-color: #6a7a69;
+}
+#board{
+    margin: auto;
+    display: grid;
+    height: 600px;
+    width: 600px;
+    /* border: 2px solid black; */
+    grid-template-columns: repeat(4,1fr);
+}
+.class{
+    display: grid;
+    margin: auto;
+    height: 125px;
+    width: 125px;
+    /* border: 2px solid #9dc3be; */
+    border: 2px solid black;
+    background-color: #809f83;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
